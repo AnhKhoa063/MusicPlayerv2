@@ -1,0 +1,153 @@
+@media (max-width: 1023px) {
+    .control .btn-toggle-play:hover {
+        transform: unset;
+    }
+
+    .control .btn:not(.btn-toggle-play):hover {
+        background-color: unset;
+    }
+
+    .volume .btn {
+        font-size: 20px;
+    }
+
+    .volume-value-text {
+        display: none;
+    }
+
+    .volume-value {
+        margin: 0 10px 0 6px;
+    }
+
+    .song .option {
+        display: none;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    header h2 {
+        font-size: 16px;
+    }
+
+    header h3 {
+        font-size: 12px;
+    }
+
+    .cd {
+        width: 247px;
+    }
+
+    .control .btn {
+        font-size: 20px;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .control .btn-toggle-play {
+        width: 56px;
+        height: 56px;
+    }
+
+    .playlist__heading h2 {
+        font-size: 18px;
+    }
+
+    .playlist__heading h3 {
+        font-size: 16px;
+    }
+
+    .song {
+        padding-right: 8px;
+    }
+
+    .song .title {
+        font-size: 14px;
+    }
+
+    .song .thumb {
+        width: 50px;
+        height: 50px;
+        margin: 0 4px 0 -10px;
+    }
+}
+
+@media (max-width: 740px) {
+    body {
+        overflow: unset !important;
+    }
+    .container {
+        padding: 0;
+    }
+    
+    .dashboard {
+        position: fixed;
+        top: 0;
+        z-index: 3;
+    }
+
+    header h4 {
+        font-size: 12px;
+        padding: 8px 0;
+    }
+
+    header h3 {
+        display: none;
+    }
+
+    .cd {
+        width: 200px;
+        padding-top: unset;
+    }
+
+    .progress {
+        height: 8px;
+        margin-top: unset;
+    }
+
+    .control {
+        padding: 12px 0 2px 0;
+    }
+
+    .control .btn {
+        font-size: 18px;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .control .btn-toggle-play {
+        width: 56px;
+        height: 56px;
+        font-size: 24px;
+    }
+
+    .playlist {
+        margin-top: 445px;
+        border-radius: unset;
+        height: 100%;
+    }
+
+    .playlist__heading {
+        display: none;
+    }
+
+    .playlist__list::-webkit-scrollbar,
+    .playlist__list::-webkit-scrollbar-thumb,
+    .playlist__list::-webkit-scrollbar-thumb:hover {
+        display: none;
+    }
+
+    .song {
+        margin-bottom: 12px;
+        padding: 8px 16px;
+        border-radius: 5px;
+    }
+
+    .song:first-child {
+        margin-top: 32px;
+    }
+
+    .song .thumb {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        margin: 0 8px;
+    }
+}
